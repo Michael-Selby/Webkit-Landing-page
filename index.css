@@ -1,0 +1,448 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Epilogue:wght@400;700&family=Inter:wght@700&family=Manrope:wght@200..800&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+  --bgcolor: rgb(36, 5, 62);
+  --green:rgb(68, 255, 161);
+  --ash:rgb(88, 77, 98);
+}
+
+.first-section{
+    width: 100%;
+    height: 35rem;
+    background-color: var(--bgcolor);
+    /* clip-path: ellipse(100% 100% at top center);
+     */
+     border-bottom-left-radius: 45% 9%;
+     border-bottom-right-radius: 45% 9%;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 12rem;
+    /* clip-path: ellipse(100% 100% at top center); */
+    /* padding: 5rem; */
+    
+}
+
+.txt2{
+    color:white;
+    border-bottom: 2px solid var(--green);
+    padding-top: 5px;
+    /* margin-right:4rem ; */
+}
+.txt2:hover{
+    cursor: pointer;
+    color: var(--green);
+}
+/* .txt1{
+     margin-left: 4rem; 
+
+} */
+ .middle-part{
+    display: flex;
+ }
+ .heading{
+    font-size: 3rem;
+    color: white;
+    width: 380px;
+    text-align: center;
+    margin-left: 30rem;
+   
+      
+ }
+ .right-spring{
+    position: absolute;
+    right: 0;
+    top: 200px;
+    
+ }
+ .tailored{
+    border-bottom: 2px solid var(--green);
+ }
+ .heading h6{
+    font-size: small;
+    border: 2px solid var(--green);
+    width: 7.5rem;
+    padding: 10px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+ }
+ .heading h6:hover{
+    cursor: pointer;
+    color: var(--green);
+ }
+ .left-spring img{
+    /* width: 8rem; */
+    position: absolute;
+    top: 6rem;
+ }
+.mobile{
+    scale:0.8;
+    position: absolute;
+    left: 20rem;
+    top: 20rem;
+    
+}
+
+
+
+.second-section{
+    display: flex;
+    /* margin: 12rem 15rem; */
+    background-color:#D9D9D9;
+    border-bottom-left-radius: 45% 9%;
+     border-bottom-right-radius: 45% 9%;
+     width: 100%;
+    height: 43rem;
+    position: relative;
+    z-index: -1;
+    top: -90px;
+     
+}
+.card{
+    margin-top: 20rem;
+    margin-left: 7rem;
+    
+    
+}
+.name{
+    font-family: Fraunces;
+    color:var(--bgcolor);
+    font-size: 28px;
+    font-style: thin;
+}
+.text {
+    width: 17rem;
+    font-family:Fraunces ; 
+    font-size: 17px; 
+    font-weight:100; 
+    color: var(--bgcolor);
+    line-height: 1.6; 
+    letter-spacing: 0.5;
+    word-wrap: break-word;
+    text-align: center;
+}
+.num{
+    text-align: center;
+    height:50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin-left: 6rem;
+}
+  
+.num,.name,.text{
+    margin-bottom: 2rem;
+}
+.last-card{
+   
+    background-color: var(--bgcolor);
+    width: 620px;
+    height: 300px;
+    margin: auto 35rem;
+    
+}
+.last-card h4{
+    color: white;
+    font-size: 30px;
+    margin: 0 3rem;
+    padding-top: 35px;
+    
+}
+.last-card h5{
+ color: rgba(255, 255, 255, 0.87);
+ padding: 50px;
+ font-size: thin;
+ word-wrap: break-word;
+ line-height: 1rem;
+ width: 35rem;
+ 
+}
+.last-card h6{
+    border: 1px solid var(--green);
+    width: 100px;
+    padding: 10px;
+    background-color: var(--green);
+    margin: 0 3rem;
+}
+.last-card h6:hover{
+    background-color:var(--bgcolor);
+    cursor: pointer;
+    border: 1px solid var(--green);
+
+}
+ .ts-spring{
+     position: absolute;
+    right: 15rem;
+    top: 88rem;
+    scale: 0.7;
+    
+} 
+.last-section{
+    text-align: center;
+    margin-top: 5rem;
+}
+.icon-side{
+    display: flex;
+    padding: 50px;
+    margin-left: 35rem;
+
+}
+.i{
+margin: 10px;
+}
+.i:hover{
+    cursor: pointer;
+    
+ 
+}
+@media (min-width: 1025px) {
+    
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.5;
+        left: 15rem;
+        top: 65rem;
+        z-index: -1;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav{
+        margin-left: -150px;
+        margin-right: -140px;
+    }
+    .first-section{
+        width: 100%;
+    }
+    .heading{
+        margin: 0 auto;
+    }
+    .mobile{
+       margin: auto -15rem;
+                
+    }
+    
+     .card{
+        display: flex;
+        margin-top: 2rem;
+        
+
+     }
+     .second-section {
+        display: block;
+        height: fit-content;
+        background-color: ghostwhite;
+        
+    }
+    .card:nth-of-type(1){
+        padding-top:15rem;
+    }
+    .card h6{
+        padding-right: 6rem;
+        width: 500px;
+        text-align: justify;
+    }
+    .num{
+     margin:8%;
+    }
+            
+    .last-card{
+        padding: 4rem;
+        height: 25rem;
+        margin:0 20% 0 80% ;
+        
+
+    }
+    .last-card h5{
+        /* width: 63%; */
+        font-size:24;
+        word-spacing: 5px;
+        line-height: 20px;
+        color: #D9D9D9;
+    }
+    .third-section{
+        width: 20%;
+        
+    }
+    .last-card h6{
+        font-size: 20px;
+        width: 180px;
+        margin-bottom:40px;
+        
+    }
+    .ts-spring{
+        position: absolute;
+        top: 107rem;
+        left: 33rem;
+    }
+    .icon-side{
+        margin: 0;
+        position: absolute;
+        left: 19rem;
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.5;
+        top: 73rem;
+        left: -9rem;
+        z-index: -1;
+    }
+    .card :nth-child(3){
+        padding-bottom: 10rem;
+    }
+  }
+  
+  @media  (max-width: 480px) {
+    /* .first-section{
+        height:120px;
+
+    } */
+     body{
+        overflow-x: hidden;
+     }
+    
+    .nav{
+        display: flex;
+        padding: 50px 20px;
+        
+       
+        
+    }
+    .mobile img{
+    
+        position: absolute;
+        left: -500px;
+        top: 5rem;
+        scale: 0.7;
+    }
+    .second-section{
+        
+
+            display: block;
+            height: 87rem;
+            background-color: ghostwhite;
+            margin: 0 auto;
+            /* position: relative; */
+           z-index: -1;
+           top: -22rem;
+           width: 100%;
+           
+           
+        
+    }
+    .right-spring,.left-spring,.ts-spring{
+        display:none;
+
+    }
+    .heading{
+        color:white;
+        /* position: absolute;
+        left: -476px; */
+        margin: 0 auto;
+    }
+    .heading-text{
+        font-size: 28px;
+        padding: 2rem;
+        
+    }
+    .heading h6{
+        color: var(--bgcolor);
+        background-color: var(--green);
+        padding: 1rem;
+        font-weight: bold;
+        font-size:16px;
+    }
+    .card{
+        height:70px;
+        /* padding-right: 100px; */
+        /* width: 10%; */
+        /* padding-right:50px ; */
+        
+        
+
+    }
+    .text{
+        text-align: center;
+    }
+    .card:nth-of-type(1){
+        padding-top:8rem;
+        
+    }
+    .num{
+        margin-left: 50px;
+        position: relative;
+        left: 100px;
+
+    }
+    .name{
+       
+        /* width: 300px; */
+        text-align: center;
+      
+        position: relative;
+        left: -30px;
+        
+
+    }
+    .last-card{
+        width: 550px;
+        height: 600px;
+        margin: 2rem 4px;
+
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.7;
+      top: 123rem;
+      z-index: -1;
+    }
+    .icon-side{
+        margin: 0;
+    }
+    .card h6{
+        color: var(--bgcolor);
+        font-weight: bold;
+        position: absolute;
+        left: 150px;
+    }
+    .last-card h4{
+        padding: 65px;
+        font-size: 38px;
+        
+    }
+    .last-card h5{
+        
+        height: 300px;
+
+        font-size: 22px;
+        word-spacing: 3px;
+        word-wrap: break-word;
+        line-height: 30px;
+        
+    }
+    .last-card h6{
+        margin: 0 auto;
+    }
+    .icon-side{
+        margin-left: 180px;
+    }
+  }
+  
