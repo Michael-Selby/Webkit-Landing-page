@@ -309,7 +309,7 @@ margin: 10px;
     }
   }
   
-  @media  (max-width: 480px) {
+  @media  (min-width: 414px)  and (max-width:480px){
     /* .first-section{
         height:120px;
 
@@ -443,6 +443,120 @@ margin: 10px;
     }
     .icon-side{
         margin-left: 180px;
+    }
+  }
+  @media(max-width:413px){
+    .first-section{
+        height: 30rem;
+    }
+    .nav{
+        display: flex;
+        padding: 50px 20px;
+        
+       
+        
+    }
+    .mobile img{
+    
+        position: absolute;
+        left: -500px;
+        top: -2rem;
+        scale: 0.4;
+    }
+    .second-section{
+        
+
+            display: block;
+            height: 87rem;
+            background-color: ghostwhite;
+            margin: 0 auto;
+            /* position: relative; */
+           z-index: -1;
+           top: -22rem;
+           width: 100%;
+           
+           
+           
+        
+    }
+    .right-spring,.left-spring,.ts-spring{
+        display:none;
+
+    }
+    .heading{
+        color:white;
+        /* position: absolute;
+        left: -476px; */
+        margin: 0 auto;
+    }
+    .heading-text{
+        font-size: 28px;
+        padding: 2rem;
+        
+    }
+    .heading h6{
+        color: var(--bgcolor);
+        background-color: var(--green);
+        padding: 1rem;
+        font-weight: bold;
+        font-size:16px;
+    }
+    .card{
+        height:70px;
+        /* padding-right: 100px; */
+        /* width: 10%; */
+        /* padding-right:50px ; */
+        
+        
+
+    }
+    .text{
+        
+        margin-left: -4rem;
+    }
+    .card:nth-of-type(1){
+        padding-top:8rem;
+        
+    }
+    .num{
+        margin-left: 50px;
+        position: relative;
+        left: 20px;
+
+    }
+    .name{
+       
+        /* width: 300px; */
+        
+        font-size: 22px;
+        position: relative;
+        left: -30px;
+    }
+    .last-card{
+        margin: 5rem auto;
+        width: 90%;
+        height: 23rem;
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.4;
+        top: 124rem;
+        right: -60px;
+        z-index: -1;
+
+    }
+    .last-card h5{
+        
+        font-size: 15px;
+        width: 100%;
+        padding: 2rem;
+       line-height: 25px;
+        
+    }
+
+    .icon-side{
+        margin: 0 0 0 70px;
     }
   }
   
