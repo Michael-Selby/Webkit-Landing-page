@@ -1,0 +1,343 @@
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav{
+        margin-left: -150px;
+        margin-right: -140px;
+    }
+    .first-section{
+        width: 100%;
+    }
+    .heading{
+        margin: 0 auto;
+    }
+    .mobile{
+       margin: auto -15rem;
+                
+    }
+    
+     .card{
+        display: flex;
+        margin-top: 2rem;
+        
+
+     }
+     .second-section {
+        display: block;
+        height: fit-content;
+        background-color: ghostwhite;
+        
+    }
+    .card:nth-of-type(1){
+        padding-top:15rem;
+    }
+    .card h6{
+        padding-right: 6rem;
+        width: 500px;
+        text-align: justify;
+    }
+    .num{
+     margin:8%;
+    }
+            
+    .last-card{
+        padding: 4rem;
+        height: 25rem;
+        margin:0 20% 0 80% ;
+        
+
+    }
+    .last-card h5{
+        /* width: 63%; */
+        font-size:24;
+        word-spacing: 5px;
+        line-height: 20px;
+        color: #D9D9D9;
+    }
+    .third-section{
+        width: 20%;
+        margin-left: 3rem;
+        
+    }
+    .last-card h6{
+        font-size: 20px;
+        width: 180px;
+        margin-bottom:40px;
+        
+    }
+    .ts-spring{
+        position: absolute;
+        top: 107rem;
+        left: 33rem;
+    }
+    .icon-side{
+        margin: 0 6%;
+        position: absolute;
+        left: 19rem;
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.5;
+        top: 78rem;
+        left: -6rem;
+        z-index: -1;
+    }
+    .card :nth-child(3){
+        padding-bottom: 10rem;
+    }
+  }
+  
+  @media  (min-width: 414px)  and (max-width:480px){
+    /* .first-section{
+        height:120px;
+
+    } */
+     body{
+        overflow-x: hidden;
+     }
+    
+    .nav{
+        display: flex;
+        padding: 50px 20px;
+        
+       
+        
+    }
+    .mobile img{
+    
+        position: absolute;
+        left: -500px;
+        top: 5rem;
+        scale: 0.7;
+    }
+    .second-section{
+        
+
+            display: block;
+            height: 87rem;
+            background-color: ghostwhite;
+            margin: 0 auto;
+            /* position: relative; */
+           z-index: -1;
+           top: -22rem;
+           width: 100%;
+           
+           
+        
+    }
+    .right-spring,.left-spring,.ts-spring{
+        display:none;
+
+    }
+    .heading{
+        color:white;
+        /* position: absolute;
+        left: -476px; */
+        margin: 0 auto;
+    }
+    .heading-text{
+        font-size: 28px;
+        padding: 2rem;
+        
+    }
+    .heading h6{
+        color: var(--bgcolor);
+        background-color: var(--green);
+        padding: 1rem;
+        font-weight: bold;
+        font-size:16px;
+    }
+    .card{
+        height:70px;
+        /* padding-right: 100px; */
+        /* width: 10%; */
+        /* padding-right:50px ; */
+        
+        
+
+    }
+    .text{
+        text-align: center;
+    }
+    .card:nth-of-type(1){
+        padding-top:8rem;
+        
+    }
+    .num{
+        margin-left: 50px;
+        position: relative;
+        left: 100px;
+
+    }
+    .name{
+       
+        /* width: 300px; */
+        text-align: center;
+      
+        position: relative;
+        left: -30px;
+        
+
+    }
+    .last-card{
+        width: 550px;
+        height: 600px;
+        margin: 2rem 4px;
+
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.7;
+      top: 123rem;
+      z-index: -1;
+    }
+    .icon-side{
+        margin: 0;
+    }
+    .card h6{
+        color: var(--bgcolor);
+        font-weight: bold;
+        position: absolute;
+        left: 150px;
+    }
+    .last-card h4{
+        padding: 65px;
+        font-size: 38px;
+        
+    }
+    .last-card h5{
+        
+        height: 300px;
+
+        font-size: 22px;
+        word-spacing: 3px;
+        word-wrap: break-word;
+        line-height: 30px;
+        
+    }
+    .last-card h6{
+        margin: 0 auto;
+    }
+    .icon-side{
+        margin-left: 180px;
+    }
+  }
+  @media(max-width:413px){
+    .first-section{
+        height: 30rem;
+    }
+    .nav{
+        display: flex;
+        padding: 50px 20px;
+        
+       
+        
+    }
+    .mobile img{
+    
+        position: absolute;
+        left: -500px;
+        top: -2rem;
+        scale: 0.4;
+    }
+    .second-section{
+        
+
+            display: block;
+            height: 87rem;
+            background-color: ghostwhite;
+            margin: 0 auto;
+            /* position: relative; */
+           z-index: -1;
+           top: -22rem;
+           width: 100%;
+           
+           
+           
+        
+    }
+    .right-spring,.left-spring,.ts-spring{
+        display:none;
+
+    }
+    .heading{
+        color:white;
+        /* position: absolute;
+        left: -476px; */
+        margin: 0 auto;
+    }
+    .heading-text{
+        font-size: 28px;
+        padding: 2rem;
+        
+    }
+    .heading h6{
+        color: var(--bgcolor);
+        background-color: var(--green);
+        padding: 1rem;
+        font-weight: bold;
+        font-size:16px;
+    }
+    .card{
+        /* height:70px; */
+        /* padding-right: 100px; */
+        /* width: 10%; */
+        /* padding-right:50px ; */
+        
+        
+
+    }
+    .text{
+        
+        margin-left: -4rem;
+    }
+    .card:nth-of-type(1){
+        padding-top:8rem;
+        
+    }
+    .num{
+        margin-left: 50px;
+        position: relative;
+        left: 20px;
+
+    }
+    .name{
+       
+        /* width: 300px; */
+        
+        font-size: 22px;
+        position: relative;
+        left: -30px;
+    }
+    .last-card{
+        margin: 5rem auto;
+        width: 90%;
+        height: 23rem;
+    }
+    .last-card::before{
+        content: url(images/man-image.png);
+        position: absolute;
+        scale: 0.4;
+        top: 124rem;
+        right: -60px;
+        z-index: -1;
+
+    }
+    .last-card h5{
+        
+        font-size: 15px;
+        width: 100%;
+        padding: 2rem;
+       line-height: 25px
+        
+    }
+
+    .icon-side{
+        margin: 0 0 0 70px;
+    }
+  }
